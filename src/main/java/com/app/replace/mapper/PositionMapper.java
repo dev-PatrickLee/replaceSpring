@@ -11,6 +11,4 @@ public interface PositionMapper {
     public List<PositionVO> selectAll();
 
     public List<PositionDTO> selectAllWithCompanyName();
-
-    public List<PositionDTO> selectByBigCategory(long id);
 }
